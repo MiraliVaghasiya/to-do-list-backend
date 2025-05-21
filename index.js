@@ -44,5 +44,5 @@ app.delete("/tasks/:id", async (req, res) => {
   res.json({ success: true });
 });
 
-const PORT = process.env.PORT ;
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+const PORT = 5000;
+app.listen(PORT, () => console.log(`Server started on port 5000`));
